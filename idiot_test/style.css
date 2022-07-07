@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 *{
-    transition: all 0.2s ease-in-out;
+    transition: all 0.15s ease-in-out;
     font-family: 'Poppins', sans-serif;
     color: #000000;
 }
@@ -14,7 +14,8 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 70vh;
+    height: 90vh;
+    box-sizing: border-box;
 }
 
 .question-wrapper{
@@ -27,6 +28,13 @@ body{
     align-items: center;
     justify-content: space-around;
     border-radius: 30px;
+}
+
+.humiliation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
 }
 
 .question{
@@ -65,10 +73,14 @@ button{
 
 .idiot{
     position:absolute;
-    cursor:none;
 }
 
 .ez{
     font-weight: 700;
     font-size: 40px;
+}
+
+.bruh{
+    font-weight: 400;
+    font-size: 20px;
 }
